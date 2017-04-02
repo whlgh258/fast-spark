@@ -28,7 +28,7 @@ public class LoadCsvWithCountersJavaExample {
                 Integer[] ints = new Integer[parsedLine.length];
                 for(int i = 0; i < parsedLine.length; i++){
                     int k = Integer.parseInt(parsedLine[i]);
-                    ints[i ] = k;
+                    ints[i] = k;
                 }
 
                 list.add(ints);
