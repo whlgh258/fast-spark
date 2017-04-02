@@ -87,5 +87,8 @@ public class LastFMRecommendation {
         evaluator.setLabelCol("rating");
         double rmse = evaluator.evaluate(pred);
         System.out.println("Root Mean Squared Error = " + rmse);
+
+        spark.stop();
+        sc.stop();
     }
 }
